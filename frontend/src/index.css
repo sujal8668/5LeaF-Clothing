@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr {
+  display: block;
+}
+
+* {
+  font-family: Outfit;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ::-webkit-scrollbar{
+    display: none;
+  } */
+
+@media (max-width: 640px) {
+  .niggas {
+    height: 70vw;
+    width: 100%;
+  }
+  a.active {
+    background-color: black;
+    color: white;
+  }
+}
+
+.leftside {
+  background-size: cover;
+  background-position: center;
+  background-image: url("assets/left.jpg");
+}
+
+.fix {
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(assets/om_DSC9047.jpg);
+}
+
+.discount {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url(assets/discount.webp);
+}
+
+@media screen and (max-width: 600px) {
+  .f1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .f2 {
+    text-align: center;
+    flex-direction: column;
+  }
+}
