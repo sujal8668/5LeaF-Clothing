@@ -14,6 +14,14 @@
 - **Admin Dashboard:** Manage inventory, orders, users, and analytics.
 ---
 
+## Preview
+<p align="center">
+<img src="./img/Screenshot (196).png" width="400">
+<img src="./img/Screenshot (197).png" width="400">
+<img src="./img/Screenshot (198).png" width="400">
+
+</p>
+
 
 ## 👥 Authors 
 
